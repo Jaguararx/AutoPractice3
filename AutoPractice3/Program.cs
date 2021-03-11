@@ -16,7 +16,7 @@ namespace AutoPractice3
 
         static void Main()
         {
-            //Car car = new Car("Volvo", 5);
+            Car car = new Car("Volvo", 5, 4);
             //car.Model = null;
             //PrintCarInfo print = new PrintCarInfo();
             //print.Print(car);
