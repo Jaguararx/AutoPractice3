@@ -3,7 +3,7 @@ namespace AutoPractice3.Models
 {
     class Car
     {
-        public int Size { get; set; }
+        public int Size;
         public int NumberWeels;
 
         readonly private int Length;
@@ -21,10 +21,11 @@ namespace AutoPractice3.Models
             }
         }
 
-        public Car(string model, int lenght, int numberWeels) {
+        public Car(string model, int lenght, int numberWeels, int size) {
             Model = model;
             Length = lenght;
             NumberWeels = numberWeels;
+            Size = size;
         }
 
         public void Calculate() {
